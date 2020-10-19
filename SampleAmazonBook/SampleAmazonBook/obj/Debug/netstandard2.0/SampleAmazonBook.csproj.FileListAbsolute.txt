@@ -1,0 +1,14 @@
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\bin\Debug\netstandard2.0\SampleAmazonBook.deps.json
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\bin\Debug\netstandard2.0\SampleAmazonBook.dll
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\bin\Debug\netstandard2.0\ref\SampleAmazonBook.dll
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\bin\Debug\netstandard2.0\SampleAmazonBook.pdb
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\SampleAmazonBook.AssemblyInfoInputs.cache
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\SampleAmazonBook.AssemblyInfo.cs
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\SampleAmazonBook.dll
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\ref\SampleAmazonBook.dll
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\SampleAmazonBook.pdb
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\SampleAmazonBook.csproj.CoreCompileInputs.cache
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\XamlC.stamp
+D:\work\04_C#\Xamarin\SampleAmazonBook\SampleAmazonBook\SampleAmazonBook\obj\Debug\netstandard2.0\SampleAmazonBook.csprojAssemblyReference.cache

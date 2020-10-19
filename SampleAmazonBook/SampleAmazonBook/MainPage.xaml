@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SampleAmazonBook.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry Placeholder="Enter text"
+               MaxLength="15"
+               IsSpellCheckEnabled="false"
+               IsTextPredictionEnabled="false"
+               IsPassword="false"
+               TextChanged="Entry_TextChanged"
+               Completed="Entry_Completed"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0"
+                    Text="Update"
+                    Clicked="Button_Clicked"/>
+            <Button Grid.Column="1"
+                    Text="Clear"/>
+        </Grid>
+        <Label x:Name="DebugOut" Text="---------"></Label>
+        <ListView
+            x:Name="bookList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="{Binding itemName}"/>
+                        <ViewCell.ContextActions>
+                            <MenuItem Clicked="OnMore"
+                                      CommandParameter="{Binding .}"
+                                      Text="More" />
+                            <MenuItem Clicked="OnDelete"
+                                      CommandParameter="{Binding .}"
+                                      Text="Delete" IsDestructive="True" />
+                        </ViewCell.ContextActions>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
